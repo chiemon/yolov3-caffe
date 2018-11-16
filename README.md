@@ -1,4 +1,4 @@
-# yolov3 to caffe
+#darknet yolov3 trained model (yolov3.cfg, yolov3.weights) convert to caffe model (yolov3.prototxt, yolov3.caffemodel)
 
 1. add upsample layer in caffe  
   
