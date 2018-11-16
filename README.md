@@ -22,3 +22,14 @@
     ./test_upsample_layer.testbin  
     make pycaffe  
     
+3. darknet convert to caffe  
+  
+    git clone https://github.com/marvis/pytorch-caffe-darknet-convert.git  
+    unzip pytorch-caffe-darknet-convert.zip  
+    cd  pytorch-caffe-darknet-convert  
+    
+    it should used in env pytorch and only support yolov1, yolov2 convert to caffe, so it is necessary for me to make it support yolov3.  
+    change the file  darknet2caffe.py
+    
+    source activate pytorch
+    python darknet2caffe-yolov3.py yolov3.cfg yolov3.weights yolov3.prototxt yolov3.caffemodel
